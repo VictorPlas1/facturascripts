@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name="Nombre" order="100">
+            <widget type="text" fieldname="nombre"/>
+        </column>
+    </columns>
+</view>

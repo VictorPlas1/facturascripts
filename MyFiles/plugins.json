@@ -1,0 +1,19 @@
+[
+    {
+        "compatible": true,
+        "description": " Este es mi primer Plugin",
+        "enabled": true,
+        "folder": "MiPrimerPlugin",
+        "hidden": false,
+        "installed": true,
+        "min_version": 2024.1,
+        "min_php": 7.3,
+        "name": "MiPrimerPlugin",
+        "order": 1,
+        "post_disable": false,
+        "post_enable": true,
+        "require": [],
+        "require_php": [],
+        "version": 1
+    }
+]

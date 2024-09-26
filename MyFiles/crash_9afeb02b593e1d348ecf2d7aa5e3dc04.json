@@ -1,0 +1,15 @@
+{
+    "code": 1,
+    "message": "Uncaught Error: Class &quot;FacturaScripts\\Plugins\\MiPrimerPlugin\\Controller\\ListAlumno&quot; not found in \\Dinamic\\Controller\\ListAlumno.php:7\n\nStack trace:\n#0 \\vendor\\composer\\ClassLoader.php(571): include()\n#1 \\vendor\\composer\\ClassLoader.php(428): Composer\\Autoload\\includeFile(&#39;C:\\\\wamp64\\\\www\\\\f...&#39;)\n#2 [internal function]: Composer\\Autoload\\ClassLoader-&gt;loadClass(&#39;FacturaScripts\\\\...&#39;)\n#3 \\Core\\Base\\PluginDeploy.php(102): class_exists(&#39;\\\\FacturaScripts...&#39;)\n#4 \\Core\\Plugins.php(130): FacturaScripts\\Core\\Base\\PluginDeploy-&gt;initControllers()\n#5 \\Core\\Controller\\AdminPlugins.php(185): FacturaScripts\\Core\\Plugins::deploy(true, true)\n#6 \\Core\\Controller\\AdminPlugins.php(81): FacturaScripts\\Core\\Controller\\AdminPlugins-&gt;rebuildAction()\n#7 \\Core\\Base\\Controller.php(301): FacturaScripts\\Core\\Controller\\AdminPlugins-&gt;privateCore(Object(Symfony\\Component\\HttpFoundation\\Response), Object(FacturaScripts\\Dinamic\\Model\\User), Object(FacturaScripts\\Core\\Base\\ControllerPermissions))\n#8 \\Core\\Kernel.php(367): FacturaScripts\\Core\\Base\\Controller-&gt;run()\n#9 \\Core\\Kernel.php(186): FacturaScripts\\Core\\Kernel::runController(&#39;\/AdminPlugins&#39;)\n#10 \\index.php(63): FacturaScripts\\Core\\Kernel::run(&#39;\/facturascripts...&#39;)\n#11 {main}\n  thrown",
+    "file": "\\Dinamic\\Controller\\ListAlumno.php",
+    "line": 7,
+    "fragment": "\n2\n3\/**\n4 * Class created by Core\/Base\/PluginDeploy\n5 * @author FacturaScripts <carlos@facturascripts.com>\n6 *\/\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">7class ListAlumno extends \\FacturaScripts\\Plugins\\MiPrimerPlugin\\Controller\\ListAlumno<\/spam>\n8{\n9\tuse \\FacturaScripts\\Core\\Base\\ExtensionsTrait;\n10}\n11",
+    "hash": "9afeb02b593e1d348ecf2d7aa5e3dc04",
+    "url": "\/facturascripts\/AdminPlugins",
+    "report_url": "https:\/\/facturascripts.com\/errores\/9afeb02b593e1d348ecf2d7aa5e3dc04",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F9afeb02b593e1d348ecf2d7aa5e3dc04",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "MiPrimerPlugin"
+}
