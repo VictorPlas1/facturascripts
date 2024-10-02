@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <view>
     <columns>
-        <column name="Nombre" order="100" display="center">
+        <column name="Nombre" order="100" numColumns="6">
             <widget type="text" fieldname="nombre"/>
         </column>
-        <column name="DNI" order="110" display="center">
+        <column name="DNI" order="110" numColumns="4">
             <widget type="text" fieldname="dni"/>
         </column>
-        <column name="Fecha Nacimiento" order="120" display="center">
+        <column name="Fecha Nacimiento" order="120" numColumns="3">
             <widget type="date" fieldname="fechanacimiento"/>
         </column>
-        <column name="Telefono" order="130" display="center">
+        <column name="Telefono" order="130">
             <widget type="text" fieldname="telefono"/>
         </column>
-        <column name="Email" order="140" display="center">
+        <column name="Email" order="140">
             <widget type="text" fieldname="email"/>
         </column>
         

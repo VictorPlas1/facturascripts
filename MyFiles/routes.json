@@ -84,6 +84,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditAlumno": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditAlumno",
+        "customId": "",
+        "position": 0
+    },
     "\/EditApiKey": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditApiKey",
         "customId": "",

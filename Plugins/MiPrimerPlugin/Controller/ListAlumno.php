@@ -20,4 +20,12 @@ class ListAlumno extends ListController
     {
         $this->addView('ListAlumno', 'Alumno');
     }
+    protected function loadData($viewName, $view)
+    {
+        switch ($viewName) {
+            case 'ListAlumno':
+                $view->loadData();
+                break;
+        }
+    }
 }

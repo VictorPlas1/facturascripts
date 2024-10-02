@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table>
     <column>
-        <name>idalumno </name>
+        <name>idalumno</name>
         <type>serial</type>
         <null>NO</null>
 
     </column>
     <column>
         <name>nombre</name>
-        <type>character varyng(100)</type>
+        <type>character varying(100)</type>
         <null>NO</null>
     </column>
     <column>
         <name>dni</name>
-        <type>character varyng(9)</type>
-        
+        <type>character varying(9)</type>
     </column>
     <column>
-        <name>fechanacimiento </name>
+        <name>fechanacimiento</name>
         <type>date</type>
-        
     </column>
     <column>
         <name>telefono</name>
-        <type>character varyng(9)</type>
-        
+        <type>character varying(9)</type>
     </column>
     <column>
         <name>email</name>
-        <type>character varyng(50)</type>
+        <type>character varying(50)</type>
         <null>NO</null>
     </column>
     <constraint>
         <name>alumnos_pkey</name>
-        <type>PRIMARY_KEY (idalumno)</type>
+        <type>PRIMARY KEY (idalumno)</type>
         </constraint>
 
 </table>
