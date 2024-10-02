@@ -10,4 +10,5 @@ class EditAlumno extends EditController
     {
         return 'Alumno';
     }
+    //Comentario
 }
