@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <view>
     <columns>
-        <column name ='Nombre' order='100' numColumns ="6">
+        <column name ='Nombre' order='100' >
             <widget type="text" fieldname="nombre"/>
         </column>
-        <column name ='DNI' order='110' numColumns= "4">
+        <column name ='DNI' order='110'>
             <widget type="text" fieldname="dni"/>
         </column>
-        <column name ='Fecha Nacimiento' order='120' numColumns = "3"  >
+        <column name ='Fecha Nacimiento' order='120' >
             <widget type="date" fieldname="fechanacimiento"/>
         </column>
         <column name ='Telefono' order='130' >
