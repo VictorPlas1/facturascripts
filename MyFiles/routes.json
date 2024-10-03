@@ -154,6 +154,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditCuota": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditCuota",
+        "customId": "",
+        "position": 0
+    },
     "\/EditDiario": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditDiario",
         "customId": "",
@@ -401,6 +406,11 @@
     },
     "\/ListCuenta": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListCuenta",
+        "customId": "",
+        "position": 0
+    },
+    "\/ListCuota": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListCuota",
         "customId": "",
         "position": 0
     },

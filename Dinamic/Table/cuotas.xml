@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idcuota</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idalumno</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>fecha</name>
+        <type>date</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>fechapago</name>
+        <type>date</type>
+    </column>
+    <column>
+        <name>importe</name>
+        <type>double precision</type>
+    </column>
+    <column>
+        <name>formapago</name>
+        <type>character varying(50)</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>tipo</name>
+        <type>character varying(50)</type>
+        <null>NO</null>
+    </column>
+
+    <constraint>
+        <name>cuotas_pkey</name>
+        <type>PRIMARY KEY (idcuota)</type>
+        </constraint>
+        <constraint>
+            <name>idcuota</name>
+            <type>FOREIGN KEY (idalumno) REFERENCES alumnos(idalumno) ON DELETE CASCADE </type>
+            </constraint>
+
+        
+</table>

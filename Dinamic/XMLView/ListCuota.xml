@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name=" Alumno" order="100" display="center">
+            <widget type="autocomplete" fieldname="idalumno" onclick="EditAlumno">
+                <values source="alumnos" fieldcode="idalumno" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Fecha" order="110" display="center">
+            <widget type="text" fieldname="fecha"/>
+        </column>
+        <column name="Fecha Pago" order="120" display="center">
+            <widget type="date" fieldname="fechapago"/>
+        </column>
+        <column name="Importe" order="130" display="center">
+            <widget type="money" fieldname="importe"/>
+        </column>
+        <column name="Forma de pago" order="140" display="center">
+            <widget type="text" fieldname="formapago"/>
+        </column>
+        <column name="Tipo" order="140" display="center">
+            <widget type="text" fieldname="tipo"/>
+        </column>
+        
+    </columns>
+</view>
