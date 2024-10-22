@@ -1,0 +1,15 @@
+{
+    "code": 1,
+    "message": "Uncaught Error: Call to a member function exists() on null in \\Core\\Lib\\ExtendedController\\PanelController.php:105\n\nStack trace:\n#0 \\Core\\Base\\Controller.php(301): FacturaScripts\\Core\\Lib\\ExtendedController\\PanelController-&gt;privateCore(Object(Symfony\\Component\\HttpFoundation\\Response), Object(FacturaScripts\\Dinamic\\Model\\User), Object(FacturaScripts\\Core\\Base\\ControllerPermissions))\n#1 \\Core\\Kernel.php(367): FacturaScripts\\Core\\Base\\Controller-&gt;run()\n#2 \\Core\\Kernel.php(186): FacturaScripts\\Core\\Kernel::runController(&#39;\/EditAlumno&#39;)\n#3 \\index.php(63): FacturaScripts\\Core\\Kernel::run(&#39;\/facturascripts...&#39;)\n#4 {main}\n  thrown",
+    "file": "\\Core\\Lib\\ExtendedController\\PanelController.php",
+    "line": 105,
+    "fragment": "            }\n100            }\n101\n102            $this->loadData($viewName, $view);\n103            $this->pipeFalse('loadData', $viewName, $view);\n104\n<spam style=\"padding-top: 0.1rem; padding-bottom: 0.1rem; background-color: red; color: white\">105            if ($viewName === $mainViewName && $view->model->exists()) {<\/spam>\n106                $this->hasData = true;\n107            }\n108        }\n109\n110        \/\/ General operations with the loaded data",
+    "hash": "28cbac94e9aee2072e06529b1997039a",
+    "url": "\/facturascripts\/EditAlumno",
+    "report_url": "https:\/\/facturascripts.com\/errores\/28cbac94e9aee2072e06529b1997039a",
+    "report_qr": "https:\/\/api.qrserver.com\/v1\/create-qr-code\/?size=150x150&data=https%3A%2F%2Ffacturascripts.com%2Ferrores%2F28cbac94e9aee2072e06529b1997039a",
+    "core_version": 2024.9,
+    "php_version": "8.2.13",
+    "os": "WINNT",
+    "plugin_list": "MiPrimerPlugin"
+}

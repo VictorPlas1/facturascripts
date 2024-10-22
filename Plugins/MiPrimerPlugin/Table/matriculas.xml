@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<table>
+    <column>
+        <name>idmatricula</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idalumno</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idasignatura</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>fechadealta</name>
+        <type>date</type>
+        
+    </column>
+    <column>
+        <name>fechadebaja</name>
+        <type>date</type>
+    </column>
+    <column>
+        <name>cuota</name>
+        <type>double precision</type>
+    </column>
+
+    <constraint>
+        <name>matriculas_pkey</name>
+        <type>PRIMARY KEY (idmatricula)</type>
+        </constraint>
+        <constraint>
+            <name>idmatricula</name>
+            <type>FOREIGN KEY (idalumno) REFERENCES alumnos(idalumno) ON DELETE CASCADE </type>
+            </constraint>
+            <constraint>
+                <name>idmatricula</name>
+                <type>FOREIGN KEY (idasignatura) REFERENCES asignaturas(idasignatura) ON DELETE CASCADE </type>
+                </constraint>
+
+        
+</table>

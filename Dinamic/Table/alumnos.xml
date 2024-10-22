@@ -13,7 +13,7 @@
     </column>
     <column>
         <name>dni</name>
-        <type>character varying(9)</type>
+        <type>character varying(9)</type> 
     </column>
     <column>
         <name>fechanacimiento</name>

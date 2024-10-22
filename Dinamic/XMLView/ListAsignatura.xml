@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name="Nombre" order="90">
+            <widget type="text" fieldname="nombre"/>
+        </column>
+        <column name="Profesor" order="100">
+            <widget type="autocomplete" fieldname="idprofesor" onclick="EditProfesor">
+                <values source="profesores" fieldcode="idprofesor" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Material" order="110">
+            <widget type="text" fieldname="material"/>
+        </column>
+        <column name="Plazas" order="120">
+            <widget type="number" fieldname="plazas"/>
+        </column>
+        
+    </columns>
+</view>

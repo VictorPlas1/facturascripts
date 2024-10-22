@@ -9,9 +9,7 @@
         <column name ='Fecha' order='110' display = 'center'>
             <widget type="text" fieldname="fecha"/>
         </column>
-        <column name ='Fecha Pago' order='120' display = 'center'>
-            <widget type="date" fieldname="fechapago"/>
-        </column>
+        
         <column name ='Importe' order='130' display = 'center'>
             <widget type="money" fieldname="importe"/>
         </column>
@@ -23,4 +21,10 @@
         </column>
         
     </columns>
+<rows>
+    <row type= "status">
+        <option color="danger" fieldname="fechapago" title="No pagado">null:</option>
+    </row>
+</rows>
+
 </view>

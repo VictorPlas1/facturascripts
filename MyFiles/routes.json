@@ -99,6 +99,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditAsignatura": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditAsignatura",
+        "customId": "",
+        "position": 0
+    },
     "\/EditAtributo": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditAtributo",
         "customId": "",
@@ -194,6 +199,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditEvaluacion": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditEvaluacion",
+        "customId": "",
+        "position": 0
+    },
     "\/EditFabricante": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditFabricante",
         "customId": "",
@@ -239,6 +249,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditMatricula": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditMatricula",
+        "customId": "",
+        "position": 0
+    },
     "\/EditPageOption": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPageOption",
         "customId": "",
@@ -271,6 +286,11 @@
     },
     "\/EditProducto": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditProducto",
+        "customId": "",
+        "position": 0
+    },
+    "\/EditProfesor": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditProfesor",
         "customId": "",
         "position": 0
     },
@@ -389,6 +409,11 @@
         "customId": "",
         "position": 0
     },
+    "\/ListAsignatura": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListAsignatura",
+        "customId": "",
+        "position": 0
+    },
     "\/ListAtributo": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListAtributo",
         "customId": "",
@@ -406,11 +431,6 @@
     },
     "\/ListCuenta": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListCuenta",
-        "customId": "",
-        "position": 0
-    },
-    "\/ListCuota": {
-        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListCuota",
         "customId": "",
         "position": 0
     },
@@ -486,6 +506,11 @@
     },
     "\/ListProducto": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListProducto",
+        "customId": "",
+        "position": 0
+    },
+    "\/ListProfesor": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListProfesor",
         "customId": "",
         "position": 0
     },

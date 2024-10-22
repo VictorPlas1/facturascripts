@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idevaluacion</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idalumno</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idasignatura</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idprofesor</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>observaciones</name>
+        <type>text</type>
+        <null>NO</null>
+    </column>
+    
+    <column>
+        <name>fecha</name>
+        <type>date</type>
+    </column>
+    <column>
+        <name>nota</name>
+        <type>integer</type>
+    </column>
+    <column>
+        <name>comportamiento</name>
+        <type>integer</type>
+    </column>
+    <constraint>
+        <name>evaluaciones_pkey</name>
+        <type>PRIMARY KEY (idevaluacion)</type>
+        </constraint>
+        <constraint>
+            <name>alumno_ca</name>
+            <type>FOREIGN KEY (idalumno) REFERENCES alumnos (idalumno)</type>
+         </constraint>
+            <constraint>
+                <name>profesor_ca</name>
+                <type>FOREIGN KEY (idprofesor) REFERENCES profesores (idprofesor)</type>
+                </constraint>
+                <constraint>
+                    <name>asignatura_ca</name>
+                    <type>FOREIGN KEY (idasignatura) REFERENCES asignaturas (idasignatura)</type>
+                    </constraint>
+
+</table>

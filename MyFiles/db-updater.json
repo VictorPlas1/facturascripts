@@ -4,10 +4,16 @@
     "work_events",
     "settings",
     "users",
-    "cuotas",
+    "alumnos",
     "pages_options",
     "pages_filters",
+    "cuotas",
+    "matriculas",
+    "evaluaciones",
     "divisas",
-    "alumnos",
-    "formatos_documentos"
+    "logs",
+    "almacenes",
+    "formatos_documentos",
+    "asignaturas",
+    "profesores"
 ]

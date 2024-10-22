@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+        <column name=" Alumno" order="100" display="center">
+            <widget type="autocomplete" fieldname="idalumno" onclick="EditAlumno">
+                <values source="alumnos" fieldcode="idalumno" fieldtitle="nombre"/>
+            </widget>
+        </column>
+        <column name="Asignatura" order="105" display="center">
+            <widget type="autocomplete" fieldname="idasignatura" onclick="EditAsignatura">
+                <values source="asignaturas" fieldcode="idasignatura" fieldtitle="nombre"/>
+            </widget>
+        </column>
+
+        <column name="Fecha de Alta" order="110" display="center">
+            <widget type="date" fieldname="fechadebaja"/>
+        </column>
+        <column name="Fecha de Baja " order="120" display="center">
+            <widget type="date" fieldname="fechadebaja"/>
+        </column>
+        <column name="Cuota" order="130" display="center">
+            <widget type="money" fieldname="cuota"/>
+        </column>
+    </columns>
+</view>

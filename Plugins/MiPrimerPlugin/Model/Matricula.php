@@ -5,27 +5,25 @@ namespace FacturaScripts\Plugins\MiPrimerPlugin\Model;
 use FacturaScripts\Core\Model\Base\ModelClass;
 use FacturaScripts\Core\Model\Base\ModelTrait;
 
-
-class Cuota extends ModelClass
+class Matricula extends ModelClass
 {
     use ModelTrait;
-    public $idcuota;
+    public $idmatricula;
     public $idalumno;
-    public $fecha;
-    public $fechapago;
-    public $importe;
-    public $formapago;
-    public $tipo;
+    public $idasignatura;
+    public $fechadealta;
+    public $fechadebaja;
+    public $cuota;
 
 
 
     public static function primaryColumn(): string
     {
-        return "idcuota";
+        return "idmatricula";
     }
     public static function tableName(): string
     {
-        return "cuotas";
+        return "matriculas";
     }
     public function url(string $type = 'auto', string $list = 'ListAlumno?activetab=List'): string
     {
